@@ -1,0 +1,17 @@
+{
+  "name": "gemini-bun",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^4.17.21"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.17.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
